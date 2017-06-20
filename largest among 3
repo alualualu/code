@@ -1,0 +1,93 @@
+package pro1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author student
+ */
+public class Pro1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+       
+            {
+
+        int n,p,r;
+
+        Scanner s = new Scanner(System.in);
+
+        System.out.print("Enter the 3 number(n,p,r) :");
+
+        n = s.nextInt();
+        p = s.nextInt();
+        r = s.nextInt();
+
+        if(n>p&&n>r )
+
+        {
+
+            System.out.println("n is bigger");
+
+        }
+/*if(n >r)
+
+        {
+
+            System.out.println("n is bigger");
+
+        }*/
+if(p >r&&p>n)
+
+        {
+
+            System.out.println("p is greater");
+
+        }
+/*
+if(p>n)
+
+        {
+
+            System.out.println("n is greater");
+
+        }*/
+if(r>n&&r>p)
+
+        {
+
+            System.out.println("r is greater");
+
+        }
+/*
+if(r>p)
+
+        {
+
+            System.out.println("r is greater");
+
+        }*/
+       /* else if(n%2==1)
+
+        {
+
+            System.out.println("The given number is odd");
+
+        }
+*/
+        else
+
+        {
+
+            System.out.println("exception ");
+
+        }
+
+    }
+
+}
+    }
+    
+
