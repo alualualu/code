@@ -1,109 +1,13 @@
+
+
 package pro1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author student
- */
+
 public class Pro1 {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-       
-            {
-
-        int n;
-
-        Scanner s = new Scanner(System.in);
-
-        System.out.print("Enter the a year:");
-
-        n = s.nextInt();
-        
-/*
-        if(n>p&&n>r )
-
-        {
-
-            System.out.println("n is bigger");
-
-        }
-/*if(n >r)
-
-        {
-
-            System.out.println("n is bigger");
-
-        }*/
-if(n%4==0)
-
-        {
-
-            System.out.println("leap year");
-
-        }
-/*
-if(p>n)
-
-        {
-
-            System.out.println("n is greater");
-
-        }*/
-/*if(r>n&&r>p)
-
-        {
-
-            System.out.println("r is greater");
-
-        }
-/*
-if(r>p)
-
-        {
-
-            System.out.println("r is greater");
-
-        }*/
-       /* else if(n%2==1)
-
-        {
-
-            System.out.println("The given number is odd");
-
-        }
-*/
-        
-        else
-
-        {
-
-            System.out.println("not a leap year ");
-
-        }
-
-    }
-
-}
-    }
     
-
-package pro1;
-
-import java.util.Scanner;
-
-/**
- *
- * @author student
- */
-public class Pro1 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
        
             {
